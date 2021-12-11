@@ -13,7 +13,7 @@ $tok =json_decode($tdata, true);
 $vid_token = $tok['video_token'];
 $playit = $stream.$vid_token;
 
-//echo $playit;
+echo $playit;
 header("Location: $playit"); //--> For Direct Play
 
 }
